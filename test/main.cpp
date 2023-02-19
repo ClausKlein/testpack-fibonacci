@@ -1,5 +1,4 @@
-//XXX #include <fibonacci.h>
-#include "fibonacci.h"
+#include <fibonacci.h>
 
 #include <iostream>
 
