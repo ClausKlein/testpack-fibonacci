@@ -8,8 +8,8 @@ project(TestFibonacci LANGUAGES CXX)
 
 include(../cmake/CPM.cmake)
 
-CPMAddPackage(NAME Fibonacci SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/..)
-#XXX add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/.. Fibonacci SYSTEM)
+CPMAddPackage(NAME Fibonacci SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/.. SYSTEM NO)
+# XXX add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/.. Fibonacci)
 
 # ---- Create binary ----
 
